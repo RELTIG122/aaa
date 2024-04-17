@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekiro</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        nav {
+            position: fixed;
+            /* Фиксируем панель навигации */
+            top: 0;
+            /* Прикрепляем ее к верхней границе */
+            width: 100%;
+            /* Растягиваем на всю ширину окна */
+            background-color: goldenrod;
+            z-index: 1000;
+            /* Устанавливаем высокий уровень z-index для обеспечения видимости */
+            text-align: center;
+            /* Выравниваем текст по центру */
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        nav li {
+            display: inline;
+            /* Изменяем на inline, чтобы элементы были в строку */
+        }
+
+        nav li a {
+            display: inline-block;
+            /* Изменяем на inline-block, чтобы применить padding и text-align: center */
+            color: antiquewhite;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav li a:hover {
+            background-color: #111;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Системные требования</a></li>
+            <li><a href="#">Сюжет</a></li>
+            <li><a href="#">Геймплей</a></li>
+        </ul>
+    </nav>
+
+
+</body>
+
+</html>
